@@ -8,7 +8,7 @@ def unpickle(file):
 		data = pickle.load(f, encoding='latin-1')
 		return data
 
-def load_data(path='C:/Users/k_tej/Documents/TEJA/ML_resources/ML_concepts/CNN/data/cifar-10-python.tar/cifar-10-python/cifar-10-batches-py'):
+def load_data(path='/.../cifar-10-python.tar/cifar-10-python/cifar-10-batches-py'):
 
 	train_data = None
 	train_labels = []
